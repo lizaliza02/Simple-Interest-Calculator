@@ -1,0 +1,42 @@
+body {background-color:black; font-family: Arial; color: white}
+
+h1{color: grey; font: verdana;}
+
+.maindiv{
+    background-color:#f2f2f2;
+    color: black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    
+
+}
+
+input[type="title"],
+  input[type="genre"],
+  input[type="add"] {
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  
+  #rate_val::after {
+    content: "%";
+  }
+  
+  #result {
+    color: red;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+  }
+
